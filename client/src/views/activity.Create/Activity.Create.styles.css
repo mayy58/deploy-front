@@ -1,0 +1,62 @@
+.tourActivity {
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#tourTit {
+  margin-top: 75px;
+  font-size: 70px;
+  text-align-last: center;
+  color: #182121;
+  font-family: "Bigelow Rules";
+}
+.formulario {
+  width: 500px;
+  height: 300px;
+  padding: 70px 30px;
+  margin: 50px;
+  background-color: #708a70;
+  color: rgb(6, 6, 75);
+  font-family: Tahoma;
+}
+
+label {
+  margin: 15px;
+  font-weight: bold;
+}
+
+input {
+  margin: 5px;
+}
+
+.selForm {
+  margin: 15px;
+}
+
+.error {
+  color: rgb(161, 37, 37);
+  align-items: center;
+}
+
+.pais {
+  color: rgb(6, 6, 75);
+  font-family: Tahoma;
+  float: left;
+  position: relative;
+  margin: 10px;
+}
+.countryList {
+  display: flex;
+  flex-direction: column;
+}
+.botonX {
+  width: 30px;
+  height: 20px;
+  background-color: #3e8e41;
+  color: white;
+}

@@ -1,0 +1,79 @@
+.home-title {
+  margin-top: 75px;
+  margin-bottom: 50px;
+  font-size: 76px;
+  text-align-last: center;
+  color: #182121;
+  font-family: "Bigelow Rules";
+}
+.conteiner1 {
+  display: flex; /* Activar el modo de display flex en el contenedor */
+  justify-content: center; /* Alinear los elementos horizontalmente */
+}
+
+.conteiner2 {
+  display: flex; /* Activar el modo de display flex en el contenedor */
+  justify-content: center; /* Alinear los elementos horizontalmente */
+}
+.button {
+  font-size: 16px; /* Tamaño del texto */
+  margin: 10px 5px; /* Margen exterior */
+  cursor: pointer; /* Cambiamos el cursor al pasar por encima */
+  border-radius: 25px; /* Añadimos un radio de borde */
+  transition-duration: 0.4s; /* Duración de la transición */
+  width: 9rem;
+}
+
+select {
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background: #5c6664;
+  background-image: none;
+  flex: 1;
+  padding: 1em;
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.7rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.select::-ms-expand {
+  display: none;
+}
+.select {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 11em;
+  height: 2.5em;
+  line-height: 3;
+  background: #5c6664;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+.select::after {
+  content: "\25BC";
+  position: absolute;
+  align-items: center;
+  top: 0;
+  right: 0;
+  padding: 0 1em;
+  background: #2b2e2e;
+  cursor: pointer;
+  pointer-events: none;
+  transition: 0.25s all ease;
+  width: 0.5rem;
+}
+.select:hover::after {
+  color: #23b499;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+}

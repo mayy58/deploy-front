@@ -1,0 +1,48 @@
+.tourActivity {
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 750px;
+  padding: 70px 30px;
+  margin: 50px auto;
+  background-color: #708a70;
+  color: rgb(6, 6, 75);
+  font-family: Tahoma;
+}
+.conteinerDetail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  font-size: 16px; /* Tamaño del texto */
+  margin: 10px 5px; /* Margen exterior */
+  cursor: pointer; /* Cambiamos el cursor al pasar por encima */
+  border-radius: 25px; /* Añadimos un radio de borde */
+  transition-duration: 0.4s; /* Duración de la transición */
+  width: 9rem;
+  text-decoration: none;
+}
+.Bandera {
+  background-size: cover;
+  background-color: black;
+  border: solid 1px black;
+  width: 500px;
+  height: 300px;
+}

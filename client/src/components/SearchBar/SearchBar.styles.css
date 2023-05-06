@@ -1,0 +1,18 @@
+.search-bar {
+  display: flex; /* Activar el modo de display flex en los elementos */
+  justify-content: center; /* Alinear los elementos horizontalmente */
+  margin: auto; /* Centrar los elementos verticalmente */
+  align-items: center;
+  height: 20px;
+  width: 30px;
+  text-align: center;
+}
+
+.button {
+  font-size: 16px; /* Tamaño del texto */
+  margin: 10px 5px; /* Margen exterior */
+  cursor: pointer; /* Cambiamos el cursor al pasar por encima */
+  border-radius: 25px; /* Añadimos un radio de borde */
+  transition-duration: 0.4s; /* Duración de la transición */
+  width: 9rem;
+}
