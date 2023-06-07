@@ -10,7 +10,7 @@ import axios from "axios";
 
 //axios.defaults.baseURL = "http://localhost:3001";
 
-axios.defaults.baseURL = "https://deploy-back-production-32eb.up.railway.app/";
+axios.defaults.baseURL = "https://deploy-back-production-8828.up.railway.app/";
 
 ReactDOM.render(
   <React.StrictMode>
